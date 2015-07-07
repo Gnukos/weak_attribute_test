@@ -4,7 +4,7 @@ CC=gcc
 
 all: withImpl1 withImpl2 withoutImpl
 
-.PHONY: clean clean-all
+.PHONY: clean clean-all emacs-clean
 
 
 withImpl1: main.o weakDef.o impl.o weakDef.h
@@ -31,7 +31,7 @@ clean:
 	rm -f *.o
 
 emacs-clean:
-	rm *~
+	rm -f *~
 
 clean-all: clean emacs-clean
 	rm -f withImpl1
