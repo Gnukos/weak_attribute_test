@@ -1,4 +1,4 @@
-CFLAGS=-W -Wall -std=c11 -pedantic
+CFLAGS=-W -Wall -std=c99 -pedantic
 LDFLAGS=
 CC=gcc
 
