@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "weakDef.h"
 
-/* cast function pointeur to void* is not a legal operation */
+/* cast function pointer to void* is not a legal operation */
 #define CAST(x) ((void*)(size_t) (x))
 
 int main(void) {
